@@ -75,7 +75,7 @@ async function gameDelay(ms: number): Promise<void> {
   while (paused) await sleep(120);
 }
 const humanName = (): string => settings.nickname || '나';
-const cardUrl = (assetId: string) => `/hwatu/${assetId}.png`;
+const cardUrl = (assetId: string) => `${import.meta.env.BASE_URL}hwatu/${assetId}.png`;
 
 // ---- 좌석 DOM(상대는 동적 생성, 인간은 고정 HTML) ----
 interface SeatEls { root: HTMLElement; avatar: HTMLImageElement; name: HTMLElement; job: HTMLElement; score: HTMLElement; money: HTMLElement; bubble: HTMLElement; panel: HTMLElement; hand: HTMLElement; captured: HTMLElement }

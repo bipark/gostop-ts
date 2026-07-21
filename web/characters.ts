@@ -23,7 +23,7 @@ const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v
 
 export async function loadCharacters(): Promise<Character[]> {
   if (characters.length) return characters;
-  const res = await fetch('/avatars/characters.json');
+  const res = await fetch(`${import.meta.env.BASE_URL}avatars/characters.json`);
   characters = (await res.json()) as Character[];
   return characters;
 }
@@ -42,7 +42,7 @@ export const nerveBias = (c: Character): number => clamp(c.stats.nerve * 2 + 10,
 export const greedBias = (c: Character): number => clamp(c.stats.greed * 2 + 10, 0, 100);
 
 /** 감정별 아바타 이미지 URL. */
-export const avatarUrl = (c: Character, emotion: Emotion): string => `/avatars/${c.images[emotion]}`;
+export const avatarUrl = (c: Character, emotion: Emotion): string => `${import.meta.env.BASE_URL}avatars/${c.images[emotion]}`;
 
 /** 임의 대사 하나(rng 주입 가능). */
 export function randomQuote(c: Character, rnd: () => number = Math.random): string {

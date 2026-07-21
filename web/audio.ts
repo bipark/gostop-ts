@@ -33,7 +33,7 @@ let lastAt = 0;
 function el(name: string): HTMLAudioElement {
   let a = cache.get(name);
   if (!a) {
-    a = new Audio(`/audio/${name}.ogg`);
+    a = new Audio(`${import.meta.env.BASE_URL}audio/${name}.ogg`);
     a.preload = 'auto';
     cache.set(name, a);
   }
