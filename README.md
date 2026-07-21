@@ -3,6 +3,10 @@
 한국 전통 화투 게임 **고스톱**을, 브라우저에서 바로 즐길 수 있게 만든 TypeScript 이식판입니다.
 2인 맞고부터 4인 광팔기까지, 캐릭터 AI와 함께 실제 한 판을 완주할 수 있습니다.
 
+### ▶️ [지금 바로 플레이 — bipark.github.io/gostop-ts](https://bipark.github.io/gostop-ts/)
+
+설치 없이 브라우저에서 바로 즐길 수 있습니다.
+
 ![브라우저 실행 화면](web/screenshot.png)
 
 ---
