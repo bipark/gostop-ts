@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>루미 고스톱 — 웹</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎴</text></svg>" />
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>루미 고스톱 <span class="sub">웹</span></h1>
+        <div class="controls">
+          <label>인원
+            <select id="modeSel">
+              <option value="2">2인 (맞고)</option>
+              <option value="3">3인 (삼파전)</option>
+              <option value="4">4인 (광팔기)</option>
+            </select>
+          </label>
+          <label>상대 <select id="charSel"></select></label>
+          <label class="sound-toggle"><input id="sound" type="checkbox" checked /> 소리</label>
+          <button id="autoBtn" class="secondary icon" title="자동 진행(이번 판)">🤖</button>
+          <button id="pauseBtn" class="secondary icon" title="일시정지">⏸</button>
+          <button id="settingsBtn" class="secondary icon" title="설정">⚙️</button>
+          <button id="menuBtn" class="secondary">메뉴</button>
+          <button id="newGame">새 게임</button>
+        </div>
+      </header>
+
+      <div id="title" class="title-screen">
+        <div class="title-inner">
+          <div class="title-hero">
+            <div class="title-logo">🎴 루미 고스톱</div>
+            <div class="title-sub">한국 전통 화투 · 웹 TypeScript 이식</div>
+          </div>
+          <div class="title-mode" id="titleMode">
+            <button data-m="2" class="on">2인 · 맞고</button>
+            <button data-m="3">3인 · 삼파전</button>
+            <button data-m="4">4인 · 광팔기</button>
+          </div>
+          <div class="title-rate">
+            <label>점당
+              <select id="rateSel">
+                <option value="50">50원 (순한맛)</option>
+                <option value="100" selected>100원 (보통)</option>
+                <option value="500">500원 (매운맛)</option>
+                <option value="1000">1,000원 (지옥)</option>
+              </select>
+            </label>
+            <span class="seed-note">시드머니 1,000,000원</span>
+          </div>
+          <div class="title-body">
+            <div class="char-gallery" id="charGallery"></div>
+            <div class="char-detail" id="charDetail"></div>
+          </div>
+          <div class="title-actions">
+            <button id="resumeBtn" class="big hidden">▶ 이어하기</button>
+            <button id="randomStart" class="secondary">랜덤 상대로 시작</button>
+            <button id="startBtnT" class="big">게임 시작</button>
+          </div>
+          <div class="title-help">
+            <button id="spectateBtn" class="link">👀 관전 모드</button>
+            <a href="/help/gostop-manual.html" target="_blank" rel="noopener">📖 사용설명서</a>
+            <a href="/help/gostop-guide.html" target="_blank" rel="noopener">🎴 고스톱룰</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="board" id="board">
+        <!-- 상대(AI) 좌석: 인원수에 따라 동적으로 채움 -->
+        <div class="opponents" id="opponents"></div>
+
+        <!-- 가운데 판(바닥 + 뒷패) -->
+        <div class="center">
+          <div class="floor" id="floor"></div>
+          <div class="deck" id="deck">
+            <div class="deck-pile" id="deckPile"></div>
+            <div class="deck-count" id="deckCount"></div>
+          </div>
+          <div class="status" id="status"></div>
+        </div>
+
+        <!-- 내 좌석 -->
+        <div class="seat seat-bottom">
+          <div class="panel" id="myPanel">
+            <img class="avatar" id="myAvatar" alt="" />
+            <div class="panel-info">
+              <div class="pname" id="myName">나</div>
+              <div class="pscore" id="myScore">0점</div>
+              <div class="pmoney" id="myMoney"></div>
+            </div>
+            <div class="bubble hidden" id="myBubble"></div>
+          </div>
+          <div class="seat-cards">
+            <div class="captured" id="myCaptured"></div>
+            <div class="specials" id="specials"></div>
+            <div class="hand" id="myHand"></div>
+          </div>
+        </div>
+
+        <div id="banner" class="banner hidden"></div>
+        <div id="flyLayer" class="fly-layer"></div>
+      </div>
+
+      <div id="overlay" class="overlay hidden"><div class="dialog" id="dialog"></div></div>
+      <div id="toasts" class="toasts"></div>
+    </div>
+    <script type="module" src="/web/main.ts"></script>
+  </body>
+</html>

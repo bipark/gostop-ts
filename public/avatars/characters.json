@@ -1,0 +1,562 @@
+[
+  {
+    "index": 0,
+    "name": "피주워요",
+    "ageJob": "19세 · 재수생",
+    "personality": "뭐든 줍는 게 취미. 피 한 장에도 세상을 다 가진 듯 기뻐한다. 순진하고 소심.",
+    "playstyle": "피만 판다. 점수 나면 무조건 스톱",
+    "goStars": 1,
+    "recommendedDifficulty": "초급",
+    "stats": {
+      "insight": 10,
+      "composure": 15,
+      "nerve": 10,
+      "greed": 25,
+      "luck": 40
+    },
+    "quotes": [
+      "피다 피! 줍줍~",
+      "이것도 제 거죠…?",
+      "스, 스톱할게요!"
+    ],
+    "imagePrompt": "A skinny 19-year-old Korean boy with messy curly black hair and freckles, buck-toothed eager grin, oversized gray hoodie, joyfully holding up one single Korean hwatu flower card like a precious treasure. Cheerful webtoon-style illustration, upper body, transparent background, square format.",
+    "images": {
+      "normal": "normal/avatar_01.png",
+      "cheer": "cheer/avatar_01.png",
+      "sad": "sad/avatar_01.png",
+      "angry": "angry/avatar_01.png"
+    }
+  },
+  {
+    "index": 1,
+    "name": "못먹어도고",
+    "ageJob": "25세 · 헬스트레이너",
+    "personality": "인생 좌우명이 닉네임. 계산 없이 기세로 산다. 지고도 웃는 대인배.",
+    "playstyle": "점수만 나면 무조건 고. 피박 위기에도 고",
+    "goStars": 5,
+    "recommendedDifficulty": "중급",
+    "stats": {
+      "insight": 10,
+      "composure": 10,
+      "nerve": 40,
+      "greed": 30,
+      "luck": 10
+    },
+    "quotes": [
+      "못 먹어도 고!!",
+      "사나이는 직진!",
+      "어? 고박…? 그게 뭐죠?"
+    ],
+    "imagePrompt": "Hot-blooded 25-year-old Korean man, square jaw, military buzz cut, thick black eyebrows, red fighting-spirit headband, white sporty shirt, fist raised and eyes on fire, gripping hwatu cards in the other hand. Dynamic comic-book portrait from the waist up, isolated on transparent background, 1:1.",
+    "images": {
+      "normal": "normal/avatar_02.png",
+      "cheer": "cheer/avatar_02.png",
+      "sad": "sad/avatar_02.png",
+      "angry": "angry/avatar_02.png"
+    }
+  },
+  {
+    "index": 2,
+    "name": "광팔이",
+    "ageJob": "45세 · 보험영업 부장",
+    "personality": "뭐든 팔아치우는 영업의 신. 광 모으기보다 광 팔기가 이득이라 믿는다.",
+    "playstyle": "4인전 광팔기 기회를 노림. 참가하면 실속형 3점 스톱",
+    "goStars": 2,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 25,
+      "composure": 25,
+      "nerve": 15,
+      "greed": 25,
+      "luck": 10
+    },
+    "quotes": [
+      "광 삽니다~ 아니, 팝니다~",
+      "이건 남는 장사죠.",
+      "스톱! 정산합시다."
+    ],
+    "imagePrompt": "Portrait of a chubby 45-year-old Korean card salesman: slicked-back oily hair, thin mustache, gold-rimmed glasses with a coin glint, shiny blue suit and gold tie, winking slyly while fanning out three shining \"gwang\" hwatu cards. Glossy cartoon style, bust shot, no background, square.",
+    "images": {
+      "normal": "normal/avatar_03.png",
+      "cheer": "cheer/avatar_03.png",
+      "sad": "sad/avatar_03.png",
+      "angry": "angry/avatar_03.png"
+    }
+  },
+  {
+    "index": 3,
+    "name": "흔들신사",
+    "ageJob": "58세 · 은퇴한 은행지점장",
+    "personality": "매너 좋고 여유롭지만 배수 욕심이 있다. 흔들 기회는 절대 안 놓친다.",
+    "playstyle": "같은 월 3장이면 반드시 흔든다. 배수 걸리면 과감히 고",
+    "goStars": 4,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 25,
+      "composure": 20,
+      "nerve": 30,
+      "greed": 15,
+      "luck": 10
+    },
+    "quotes": [
+      "흔들고 가겠습니다, 하하.",
+      "신사는 두 배로 걸지요.",
+      "실례지만, 고."
+    ],
+    "imagePrompt": "A tall, slim 58-year-old Korean gentleman wearing a brown fedora and a brown checked three-piece suit with a pocket-watch chain, bushy gray mustache, refined smile, elegantly shaking three hwatu flower cards in one gloved hand. Classic storybook illustration, upper body only, transparent backdrop, 1:1 ratio.",
+    "images": {
+      "normal": "normal/avatar_04.png",
+      "cheer": "cheer/avatar_04.png",
+      "sad": "sad/avatar_04.png",
+      "angry": "angry/avatar_04.png"
+    }
+  },
+  {
+    "index": 4,
+    "name": "동네타짜",
+    "ageJob": "50세 · 직업불명",
+    "personality": "경로당~복덕방을 평정한 실전파. 말수 적고 눈빛으로 압박.",
+    "playstyle": "상대 패를 외우는 방어형. 확신 없으면 스톱, 서면 3고",
+    "goStars": 3,
+    "recommendedDifficulty": "최상",
+    "stats": {
+      "insight": 35,
+      "composure": 30,
+      "nerve": 15,
+      "greed": 15,
+      "luck": 5
+    },
+    "quotes": [
+      "……",
+      "그 패, 내려놓지 그래.",
+      "판은 내가 접는다. 스톱."
+    ],
+    "imagePrompt": "Stocky 50-year-old Korean hustler with a white crew cut, square face, small scar on his cheek, black sunglasses, toothpick in the corner of his mouth, black leather jacket, smug poker face, shuffling hwatu cards with one hand. Gritty cartoon portrait, chest-up, cut out on transparency, square image.",
+    "images": {
+      "normal": "normal/avatar_05.png",
+      "cheer": "cheer/avatar_05.png",
+      "sad": "sad/avatar_05.png",
+      "angry": "angry/avatar_05.png"
+    }
+  },
+  {
+    "index": 5,
+    "name": "초단콜렉터",
+    "ageJob": "30세 · 문구 덕후 개발자",
+    "personality": "수집벽. 초단 셋이 모이는 순간의 희열로 산다.",
+    "playstyle": "초단(4·5·7월 띠) 집착. 완성하면 만족하고 스톱",
+    "goStars": 2,
+    "recommendedDifficulty": "중급",
+    "stats": {
+      "insight": 20,
+      "composure": 25,
+      "nerve": 10,
+      "greed": 35,
+      "luck": 10
+    },
+    "quotes": [
+      "초단… 컴플리트.",
+      "그 띠, 제 겁니다만.",
+      "컬렉션이 완성됐으니 스톱."
+    ],
+    "imagePrompt": "A round-faced 30-year-old Korean collector with neatly parted hair, thick horn-rimmed glasses, knitted sweater vest with a bow tie and white cotton gloves, proudly presenting three red-ribbon hwatu cards like rare stamps. Soft pastel comic illustration, upper torso, transparent background, 1:1.",
+    "images": {
+      "normal": "normal/avatar_06.png",
+      "cheer": "cheer/avatar_06.png",
+      "sad": "sad/avatar_06.png",
+      "angry": "angry/avatar_06.png"
+    }
+  },
+  {
+    "index": 6,
+    "name": "고도리헌터",
+    "ageJob": "40세 · 조류 사진작가",
+    "personality": "새만 보면 눈이 돌아간다. 매복형 사냥꾼 기질.",
+    "playstyle": "2·4·8월 열끗 최우선. 고도리 완성 전엔 스톱 없음",
+    "goStars": 4,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 25,
+      "composure": 15,
+      "nerve": 25,
+      "greed": 30,
+      "luck": 5
+    },
+    "quotes": [
+      "새 발견. 조준.",
+      "고도리 완성까지 스톱은 없다.",
+      "다섯 점, 회수."
+    ],
+    "imagePrompt": "Rugged sun-tanned 40-year-old Korean man in a khaki hunting vest and feathered hunter's hat, bushy beard, binoculars hanging on his chest, sharp hawk-like focus, fanning three bird-themed hwatu cards. Adventure-comic style bust portrait, isolated subject with no background, square.",
+    "images": {
+      "normal": "normal/avatar_07.png",
+      "cheer": "cheer/avatar_07.png",
+      "sad": "sad/avatar_07.png",
+      "angry": "angry/avatar_07.png"
+    }
+  },
+  {
+    "index": 7,
+    "name": "쌍피장인",
+    "ageJob": "65세 · 전직 목수",
+    "personality": "과묵한 장인. 쌍피 한 장의 가치를 아는 사람. 서두르지 않는다.",
+    "playstyle": "고가치 피 위주 실속 플레이. 피박 걸리면 1고",
+    "goStars": 3,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 25,
+      "composure": 30,
+      "nerve": 15,
+      "greed": 20,
+      "luck": 10
+    },
+    "quotes": [
+      "쌍피는… 예술이지.",
+      "급할 것 없네.",
+      "이만하면 됐어. 스톱."
+    ],
+    "imagePrompt": "A bald 65-year-old Korean craftsman with white side hair and deep forehead wrinkles, artisan headband and apron over modern hanbok work clothes, reverently holding up a double-junk hwatu card with both hands as if it were a masterpiece. Warm hand-drawn animation still, waist-up, transparent PNG, 1:1.",
+    "images": {
+      "normal": "normal/avatar_08.png",
+      "cheer": "cheer/avatar_08.png",
+      "sad": "sad/avatar_08.png",
+      "angry": "angry/avatar_08.png"
+    }
+  },
+  {
+    "index": 8,
+    "name": "뻑전문가",
+    "ageJob": "70세 · 경로당 총무",
+    "personality": "손대는 판마다 뻑. 본인도 알고 자학개그로 승화하는 미워할 수 없는 캐릭터.",
+    "playstyle": "뻑 다발, 가끔 자뻑 대박. 판단 들쑥날쑥",
+    "goStars": 3,
+    "recommendedDifficulty": "초급",
+    "stats": {
+      "insight": 10,
+      "composure": 5,
+      "nerve": 25,
+      "greed": 20,
+      "luck": 40
+    },
+    "quotes": [
+      "아이고 또 쌌네.",
+      "이게 다 큰 그림이야… 자뻑!",
+      "뻑도 실력이다!"
+    ],
+    "imagePrompt": "Comical 70-year-old balding Korean man with round glasses sliding down his nose, saggy tired eyes, flustered crying-smile and a giant sweat drop, worn brown vest, hwatu cards slipping and scattering out of his hands. Gag-manhwa style upper-body drawing, transparent background, square frame.",
+    "images": {
+      "normal": "normal/avatar_09.png",
+      "cheer": "cheer/avatar_09.png",
+      "sad": "sad/avatar_09.png",
+      "angry": "angry/avatar_09.png"
+    }
+  },
+  {
+    "index": 9,
+    "name": "화투도사",
+    "ageJob": "80세 · 산에서 내려온 노인",
+    "personality": "화투 60년. 패의 흐름을 읽는다(고 주장). 도사 어투.",
+    "playstyle": "남은 패 계산 정확, 이길 판만 고른다",
+    "goStars": 3,
+    "recommendedDifficulty": "최상",
+    "stats": {
+      "insight": 40,
+      "composure": 25,
+      "nerve": 15,
+      "greed": 10,
+      "luck": 10
+    },
+    "quotes": [
+      "패에는 길이 있느니라.",
+      "오늘 자네 운은 여기까지.",
+      "하늘이 스톱하라 하는구나."
+    ],
+    "imagePrompt": "An 80-year-old Korean taoist sage with long flowing white hair and beard, black traditional gat hat and gray dopo robe, serene half-closed eyes, a single hwatu card glowing and floating above his open palm. Mystical ink-and-color illustration, bust composition, isolated on transparency, 1:1.",
+    "images": {
+      "normal": "normal/avatar_10.png",
+      "cheer": "cheer/avatar_10.png",
+      "sad": "sad/avatar_10.png",
+      "angry": "angry/avatar_10.png"
+    }
+  },
+  {
+    "index": 10,
+    "name": "쪽쪽이",
+    "ageJob": "20세 · 대학생",
+    "personality": "애교 만렙. 쪽 하나로 온 동네 자랑. 지면 금방 시무룩.",
+    "playstyle": "쪽·따닥 이벤트에 목숨. 재미 우선",
+    "goStars": 3,
+    "recommendedDifficulty": "초급",
+    "stats": {
+      "insight": 10,
+      "composure": 15,
+      "nerve": 20,
+      "greed": 25,
+      "luck": 30
+    },
+    "quotes": [
+      "쪽! 헤헤, 봤어요?",
+      "피 주세요~ 네?",
+      "한 번만 더! 고!"
+    ],
+    "imagePrompt": "Adorable 20-year-old Korean girl with a heart-shaped face, twin braided pigtails tied with pink ribbons, rosy blush, bright pink hanbok, winking and blowing a kiss surrounded by tiny hearts, hwatu cards held to her chest. Cute shoujo-style cartoon, upper body, transparent background, square.",
+    "images": {
+      "normal": "normal/avatar_11.png",
+      "cheer": "cheer/avatar_11.png",
+      "sad": "sad/avatar_11.png",
+      "angry": "angry/avatar_11.png"
+    }
+  },
+  {
+    "index": 11,
+    "name": "싹쓸이요정",
+    "ageJob": "24세 · 편의점 알바",
+    "personality": "밝고 장난기 가득. 바닥이 비는 순간이 인생의 낙.",
+    "playstyle": "싹쓸이 각이 보이면 올인. 성공하면 기고만장 고",
+    "goStars": 4,
+    "recommendedDifficulty": "중급",
+    "stats": {
+      "insight": 15,
+      "composure": 10,
+      "nerve": 30,
+      "greed": 30,
+      "luck": 15
+    },
+    "quotes": [
+      "쓸~어 담아요!",
+      "바닥 청소 완료☆",
+      "기분이다, 고!"
+    ],
+    "imagePrompt": "A playful 24-year-old Korean woman with a silver bob haircut and mischievous cat-like eyes, sky-blue hanbok sparkling with fairy dust, gleefully sweeping an entire pile of hwatu cards toward herself with both arms. Whimsical fantasy cartoon, waist-up, cut out with no background, 1:1 aspect.",
+    "images": {
+      "normal": "normal/avatar_12.png",
+      "cheer": "cheer/avatar_12.png",
+      "sad": "sad/avatar_12.png",
+      "angry": "angry/avatar_12.png"
+    }
+  },
+  {
+    "index": 12,
+    "name": "피박금지",
+    "ageJob": "48세 · 시장 반찬가게 사장",
+    "personality": "억척스럽고 방어적. 피박 안 당하는 게 최우선.",
+    "playstyle": "피 확보 전까지 초조. 방어·견제 위주, 웬만하면 스톱",
+    "goStars": 1,
+    "recommendedDifficulty": "중급",
+    "stats": {
+      "insight": 20,
+      "composure": 30,
+      "nerve": 10,
+      "greed": 10,
+      "luck": 30
+    },
+    "quotes": [
+      "피박만은 안 돼!",
+      "그 피 이리 내.",
+      "됐어 됐어, 스톱!"
+    ],
+    "imagePrompt": "A plump 48-year-old Korean auntie with a tight brown perm, fierce narrowed eyes, arms crossed in a firm X \"forbidden\" gesture, yellow hanbok, a small stack of junk hwatu cards guarded behind her. Bold flat-color caricature, chest-up view, transparent backdrop, square canvas.",
+    "images": {
+      "normal": "normal/avatar_13.png",
+      "cheer": "cheer/avatar_13.png",
+      "sad": "sad/avatar_13.png",
+      "angry": "angry/avatar_13.png"
+    }
+  },
+  {
+    "index": 13,
+    "name": "고고고",
+    "ageJob": "35세 · 필라테스 강사",
+    "personality": "에너지 과잉 응원단장 출신. 뭐든 외치고 본다.",
+    "playstyle": "분위기 타면 못 멈춘다. 2고까지 자동",
+    "goStars": 5,
+    "recommendedDifficulty": "중급",
+    "stats": {
+      "insight": 10,
+      "composure": 10,
+      "nerve": 40,
+      "greed": 25,
+      "luck": 15
+    },
+    "quotes": [
+      "고! 고! 고!",
+      "멈추면 지는 거야!",
+      "아자아자!"
+    ],
+    "imagePrompt": "Energetic 35-year-old Korean woman with a long straight ponytail, mouth wide open in an excited cheer, red tracksuit, cheerleading pom-pom in one hand and hwatu cards in the other, speed lines bursting around her. Sporty anime-style half-body shot, transparent background, 1:1.",
+    "images": {
+      "normal": "normal/avatar_14.png",
+      "cheer": "cheer/avatar_14.png",
+      "sad": "sad/avatar_14.png",
+      "angry": "angry/avatar_14.png"
+    }
+  },
+  {
+    "index": 14,
+    "name": "국진할멈",
+    "ageJob": "68세 · 화초 가꾸는 할머니",
+    "personality": "온화하지만 국진 한 장으로 판을 뒤집는 노련미.",
+    "playstyle": "국진 활용(열끗↔쌍피)의 달인. 조용히 쌓고 결정적일 때 스톱",
+    "goStars": 2,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 30,
+      "composure": 25,
+      "nerve": 10,
+      "greed": 15,
+      "luck": 20
+    },
+    "quotes": [
+      "국진이는 내 새끼야.",
+      "어이쿠, 이게 쌍피가 되네?",
+      "이 늙은이가 이겼네, 호호."
+    ],
+    "imagePrompt": "A 68-year-old Korean grandmother with silver hair in a traditional bun fixed by a binyeo hairpin, deep smile wrinkles around her eyes, forest-green hanbok, slyly holding up the chrysanthemum hwatu card between two fingers like a hidden ace. Gentle folk-art style portrait, upper body, isolated transparent background, square.",
+    "images": {
+      "normal": "normal/avatar_15.png",
+      "cheer": "cheer/avatar_15.png",
+      "sad": "sad/avatar_15.png",
+      "angry": "angry/avatar_15.png"
+    }
+  },
+  {
+    "index": 15,
+    "name": "스톱은없다",
+    "ageJob": "27세 · 격투기 선수",
+    "personality": "후퇴를 모르는 승부사. 지면 바로 \"한 판 더\".",
+    "playstyle": "3고·4고 불사. 고박 최다 보유자",
+    "goStars": 5,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 15,
+      "composure": 15,
+      "nerve": 40,
+      "greed": 25,
+      "luck": 5
+    },
+    "quotes": [
+      "스톱? 그런 건 없다.",
+      "링에서도 판에서도 직진.",
+      "4고. 불만 있나."
+    ],
+    "imagePrompt": "Intense 27-year-old Korean woman with long dark-red hair blowing in the wind, burning determined eyes, black leather jacket, clenched fist, gripping hwatu cards so hard they bend, an unstoppable aura around her. Dramatic action-comic bust portrait, no background, 1:1 format.",
+    "images": {
+      "normal": "normal/avatar_16.png",
+      "cheer": "cheer/avatar_16.png",
+      "sad": "sad/avatar_16.png",
+      "angry": "angry/avatar_16.png"
+    }
+  },
+  {
+    "index": 16,
+    "name": "자뻑여왕",
+    "ageJob": "38세 · 인플루언서",
+    "personality": "근거 있는(?) 자신감. 자기가 낸 뻑도 자기가 먹는 여왕님.",
+    "playstyle": "화려한 플레이 선호(자뻑·폭탄). 잘 풀리면 폭주 고",
+    "goStars": 4,
+    "recommendedDifficulty": "고급",
+    "stats": {
+      "insight": 20,
+      "composure": 15,
+      "nerve": 30,
+      "greed": 25,
+      "luck": 10
+    },
+    "quotes": [
+      "역시 나야.",
+      "자뻑? 그것도 실력이야.",
+      "여왕의 판이지, 고."
+    ],
+    "imagePrompt": "Glamorous 38-year-old Korean woman with wavy golden-brown hair, bold makeup and red lips, a small golden crown, purple power suit, chin raised in a self-adoring queen pose with sparkles everywhere, holding hwatu cards like a royal scepter. Luxurious fashion-cartoon illustration, upper body, transparent background, square.",
+    "images": {
+      "normal": "normal/avatar_17.png",
+      "cheer": "cheer/avatar_17.png",
+      "sad": "sad/avatar_17.png",
+      "angry": "angry/avatar_17.png"
+    }
+  },
+  {
+    "index": 17,
+    "name": "점백의달인",
+    "ageJob": "52세 · 세무사",
+    "personality": "모든 걸 숫자로 환산하는 냉철파. 점백 기대값 암산이 특기.",
+    "playstyle": "기대값 플러스일 때만 고. 박 확률 계산 정확",
+    "goStars": 3,
+    "recommendedDifficulty": "최상",
+    "stats": {
+      "insight": 40,
+      "composure": 30,
+      "nerve": 10,
+      "greed": 15,
+      "luck": 5
+    },
+    "quotes": [
+      "기대값 +240원. 고.",
+      "그 수는 마이너스입니다.",
+      "정산하죠. 스톱."
+    ],
+    "imagePrompt": "A shrewd 52-year-old Korean woman with hair in a tight bun and reading glasses slid down her nose, navy modern hanbok, wooden abacus in one hand and hwatu cards in the other, thin calculating smile. Detailed slice-of-life manhwa portrait, waist-up, cut out on transparency, 1:1.",
+    "images": {
+      "normal": "normal/avatar_18.png",
+      "cheer": "cheer/avatar_18.png",
+      "sad": "sad/avatar_18.png",
+      "angry": "angry/avatar_18.png"
+    }
+  },
+  {
+    "index": 18,
+    "name": "판쓸이할매",
+    "ageJob": "75세 · 전설의 시장 할매",
+    "personality": "시장통에서 다진 실전 감각. 웃는 얼굴로 판돈을 쓸어간다.",
+    "playstyle": "초반 약한 척, 후반 몰아치기. 상대 시드가 마를 때까지 고",
+    "goStars": 4,
+    "recommendedDifficulty": "최상",
+    "stats": {
+      "insight": 30,
+      "composure": 20,
+      "nerve": 25,
+      "greed": 20,
+      "luck": 5
+    },
+    "quotes": [
+      "아이고 나 잘 몰라~ (스윽)",
+      "요것만 받아갈게.",
+      "판은 쓸어야 제맛이지!"
+    ],
+    "imagePrompt": "A 75-year-old Korean grandmother with a tight gray perm and a gold-tooth grin, flower-patterned monpe pants and a padded vest, rolling up her sleeves triumphantly over a swept-up pile of hwatu cards and coins. Humorous rural-comic style, upper body, transparent background, square image.",
+    "images": {
+      "normal": "normal/avatar_19.png",
+      "cheer": "cheer/avatar_19.png",
+      "sad": "sad/avatar_19.png",
+      "angry": "angry/avatar_19.png"
+    }
+  },
+  {
+    "index": 19,
+    "name": "옆집고수",
+    "ageJob": "72세 · 평범한(?) 이웃",
+    "personality": "온화한 미소의 정체불명 고수. 본인은 \"심심풀이\"라 주장.",
+    "playstyle": "빈틈 없음. 상대가 모으는 걸 보고 길목을 끊는다. 무리수 없음",
+    "goStars": 2,
+    "recommendedDifficulty": "최상",
+    "stats": {
+      "insight": 35,
+      "composure": 35,
+      "nerve": 10,
+      "greed": 10,
+      "luck": 10
+    },
+    "quotes": [
+      "차 한잔하고 하지.",
+      "어머, 그거 필요했어요?",
+      "오늘도 심심풀이 잘 했네."
+    ],
+    "imagePrompt": "A gentle-looking 72-year-old Korean grandmother with soft short white hair and round glasses, beige cardigan, calmly sipping tea — but her eyes over the teacup rim are razor-sharp like a hidden master, hwatu cards stacked neatly in front of her. Cozy yet subtly tense cartoon portrait, bust view, isolated on transparent background, 1:1.",
+    "images": {
+      "normal": "normal/avatar_20.png",
+      "cheer": "cheer/avatar_20.png",
+      "sad": "sad/avatar_20.png",
+      "angry": "angry/avatar_20.png"
+    }
+  }
+]
